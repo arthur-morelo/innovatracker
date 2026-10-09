@@ -1,7 +1,7 @@
-package hiragi.innovatracker.dto;
+package hirage.innovatracker.dto;
 
 
-import hiragi.innovatracker.model.TbPessoa;
+import hirage.innovatracker.model.TbPessoa;
 
 
 public record PessoaResumoDTO(

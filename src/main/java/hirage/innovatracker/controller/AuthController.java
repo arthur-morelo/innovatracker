@@ -1,10 +1,10 @@
-package hiragi.innovatracker.controller;
+package hirage.innovatracker.controller;
 
 
-import hiragi.innovatracker.dto.LoginRequestDTO;
-import hiragi.innovatracker.dto.LoginResponseDTO;
-import hiragi.innovatracker.dto.PessoaResumoDTO;
-import hiragi.innovatracker.service.AuthService;
+import hirage.innovatracker.dto.LoginRequestDTO;
+import hirage.innovatracker.dto.LoginResponseDTO;
+import hirage.innovatracker.dto.PessoaResumoDTO;
+import hirage.innovatracker.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package hiragi.innovatracker.model;
+package hirage.innovatracker.model;
 
 
 import jakarta.persistence.Column;

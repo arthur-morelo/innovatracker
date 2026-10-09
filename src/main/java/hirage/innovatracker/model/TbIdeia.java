@@ -1,6 +1,7 @@
-package hiragi.innovatracker.model;
+package hirage.innovatracker.model;
 
 
+import hirage.innovatracker.model.TbPessoa;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -58,7 +59,7 @@ public class TbIdeia {
             nullable = false,
             foreignKey = @ForeignKey(name = "fk_categoria_ideia")
     )
-    private TdCategoria tdCategoria;
+    private hirage.innovatracker.model.TdCategoria tdCategoria;
 
 
     @Column(name = "nme_ideia", nullable = false, length = 80)

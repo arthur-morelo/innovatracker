@@ -1,4 +1,4 @@
-package hiragi.innovatracker.security;
+package hirage.innovatracker.security;
 
 
 import jakarta.servlet.FilterChain;

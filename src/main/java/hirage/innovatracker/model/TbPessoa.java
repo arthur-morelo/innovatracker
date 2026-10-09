@@ -1,6 +1,7 @@
-package hiragi.innovatracker.model;
+package hirage.innovatracker.model;
 
 
+import hirage.innovatracker.model.TdDepartamento;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

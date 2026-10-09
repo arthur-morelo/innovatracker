@@ -1,13 +1,19 @@
 package hirage.innovatracker.dto;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
-public record LoginResponseDTO(
-        String token,
-        String tipo,
-        Long expiraEm,
-        PessoaResumoDTO pessoa
-) {
-    public static LoginResponseDTO of(String token, Long expiraEm, PessoaResumoDTO pessoa) {
-        return new LoginResponseDTO(token, "Bearer", expiraEm, pessoa);
-    }
-}
+
+public record LoginRequestDTO(
+
+
+        @NotBlank(message = "O e-mail é obrigatório")
+        @Email(message = "E-mail inválido")
+        @Size(max = 80)
+        String email,
+
+
+        @NotBlank(message = "A senha é obrigatória")
+        String senha
+) {}
